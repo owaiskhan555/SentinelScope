@@ -1,0 +1,30 @@
+Return-Path: <bounce-sec@github.com>
+Received: from mx-out-04.github.com (mx-out-04.github.com [140.82.112.22])
+	by mx.enterprise-mail.org with ESMTPS id k91a82bc01
+	for <security-ops@enterprise-mail.org>; Sun, 22 Nov 2026 14:10:05 +0000
+Received: from app-worker-12.iad.github.net (10.48.19.104)
+	by mx-out-04.github.com with ESMTP id a7710f92
+	for <security-ops@enterprise-mail.org>; Sun, 22 Nov 2026 14:10:02 +0000
+Authentication-Results: mx.enterprise-mail.org;
+	dkim=pass header.i=@github.com header.s=pf2024 header.b=Qx91Lm;
+	spf=pass (enterprise-mail.org: domain of bounce-sec@github.com designates 140.82.112.22 as permitted sender) smtp.mailfrom=bounce-sec@github.com;
+	dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=github.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com; s=pf2024;
+	h=from:to:subject:date:message-id; bh=47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=; b=DummyValidSig
+From: "GitHub Security" <noreply@github.com>
+To: security-ops@enterprise-mail.org
+Subject: [GitHub] A new SSH public key was added to your account
+Date: Sun, 22 Nov 2026 14:10:02 +0000
+Message-ID: <sec-alert-994812@github.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="UTF-8"
+
+Hello,
+
+A new SSH authentication key (SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8) was recently added to your GitHub account.
+
+If you authorized this action, no further steps are required. To review your keys, visit:
+https://github.com/settings/keys
+
+Thanks,
+The GitHub Security Team
